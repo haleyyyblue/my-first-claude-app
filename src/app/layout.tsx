@@ -33,6 +33,9 @@ export default function RootLayout({
         <ThemeProvider>
           <Header />
           <main className="flex-1">{children}</main>
+          <footer className="border-t border-warm-border px-6 py-4 text-center text-sm text-warm-muted">
+            Built with Next.js &amp; Tailwind
+          </footer>
         </ThemeProvider>
       </body>
     </html>
